@@ -1,0 +1,214 @@
+/*reset*/
+/* line 6, C:/Users/alexl.WEBCREDIBLE/Documents/webcredible-boilerplate/css/scss/_reset.scss */
+*,
+*:after,
+*:before {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  offset: 0;
+  vertical-align: baseline;
+  list-style: none;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 7, scss/grid.scss */
+.baseline {
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  background: url("../../images/baseline.png") repeat;
+  opacity: 0.2;
+  z-index: 10;
+}
+
+/*grid setup*/
+/* line 20, scss/grid.scss */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* line 25, scss/grid.scss */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 31, scss/grid.scss */
+.col {
+  float: left;
+  padding-right: 10px;
+}
+
+/* line 36, scss/grid.scss */
+.col:last-of-type {
+  padding-right: 0;
+}
+
+/* line 40, scss/grid.scss */
+.right {
+  display: inline;
+  float: right;
+  padding-right: 0;
+}
+
+/* line 46, scss/grid.scss */
+.gutter {
+  padding: 10px;
+}
+
+/* line 50, scss/grid.scss */
+.gutter > [class*='col']:last-of-type {
+  padding-right: 10px;
+}
+
+/* line 54, scss/grid.scss */
+.filler {
+  padding: 10px;
+}
+
+/* line 60, scss/grid.scss */
+.large1 {
+  width: 12.5%;
+}
+
+/* line 60, scss/grid.scss */
+.large2 {
+  width: 25%;
+}
+
+/* line 60, scss/grid.scss */
+.large3 {
+  width: 37.5%;
+}
+
+/* line 60, scss/grid.scss */
+.large4 {
+  width: 50%;
+}
+
+/* line 60, scss/grid.scss */
+.large5 {
+  width: 62.5%;
+}
+
+/* line 60, scss/grid.scss */
+.large6 {
+  width: 75%;
+}
+
+/* line 60, scss/grid.scss */
+.large7 {
+  width: 87.5%;
+}
+
+/* line 60, scss/grid.scss */
+.large8 {
+  width: 100%;
+}
+
+/* line 63, scss/grid.scss */
+#a {
+  height: 96px;
+  background-color: #1C6C8C;
+}
+
+/* line 68, scss/grid.scss */
+#b {
+  height: 408px;
+  background-color: #A0D9C9;
+}
+
+/* line 73, scss/grid.scss */
+#c {
+  height: 204px;
+  background-color: #A69286;
+}
+
+/* line 78, scss/grid.scss */
+#d {
+  height: 204px;
+  background-color: #37A6A6;
+}
+
+/* line 83, scss/grid.scss */
+#e {
+  height: 204px;
+  background-color: #2A828C;
+}
+
+/* line 88, scss/grid.scss */
+#f {
+  height: 500px;
+  background-color: #2F3740;
+}
+
+/* line 93, scss/grid.scss */
+#g {
+  height: 200px;
+  background-color: #155959;
+}
+
+/* line 98, scss/grid.scss */
+p {
+  margin-bottom: 1em;
+}
+
+/*800px and below*/
+@media (max-width: 800px) {
+  /* line 112, scss/grid.scss */
+  .small1 {
+    width: 25%;
+  }
+
+  /* line 112, scss/grid.scss */
+  .small2 {
+    width: 50%;
+  }
+
+  /* line 112, scss/grid.scss */
+  .small3 {
+    width: 75%;
+  }
+
+  /* line 112, scss/grid.scss */
+  .small4 {
+    width: 100%;
+  }
+}
+/*480px and below*/
+@media (max-width: 480px) {
+  /* line 122, scss/grid.scss */
+  .col {
+    padding-right: 0;
+  }
+
+  /* line 128, scss/grid.scss */
+  .small1 {
+    width: 100%;
+  }
+
+  /* line 128, scss/grid.scss */
+  .small2 {
+    width: 100%;
+  }
+
+  /* line 128, scss/grid.scss */
+  .small3 {
+    width: 100%;
+  }
+
+  /* line 128, scss/grid.scss */
+  .small4 {
+    width: 100%;
+  }
+}
