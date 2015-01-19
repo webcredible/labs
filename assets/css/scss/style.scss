@@ -4,57 +4,91 @@
 @import 'grid';
 
 
-html {
-  font-size: 62.5%;
-}
 
-body {
-    font-size: 1.6rem;
-    font-family: $font-stack;
-    color: $primary-color;
-}
-
-a {
-  color: $accent-color;
-}
-
-a:hover {
-  color: #666;
-}
-
-img {
-  width: 100%;
-}
-
-/* grid elements  */
-.row {
-	margin: 0 auto;
-	max-width: $max-width;
-}
 
 .hero {
 	background-image: url("../img/background.jpg"); 
 	height: 700px;
+	padding-top: 2em;
+	margin-bottom: 6em;
 	h1 {
 		background: url("../img/webcredible_white.png") 0 0 no-repeat;
-		background-size: 103px 15px;
 		text-indent: -100em;
-		width: 103px;
-		height: 15px;
+		width: 141px;
+		height: 31px;
+	}
+
+	h2 {
+		color: #fff;
+		font-size: 10rem;
+		text-align: center;
+		margin: 1em 0 .3em;
+		text-shadow: 1px 3px 2px rgba(30, 30, 30, .7);
+	}
+	h3 {
+		color: #fff;
+		font-size: 5.2rem;
+		font-weight: normal;
+		text-align: center;
+		text-shadow: 1px 3px 2px rgba(30, 30, 30, .7);
 	}
 }
 
-.module2 {
+.module1 {
 	background: url('../img/shape1.svg') 0 0 no-repeat; 
 	background-size: 100% 300px;
-	padding: 6em 0 0;
+	
 	margin: 2em;
 	height: 300px
 
 }
 
+.module2 {
+	background: url('../img/shape2.svg') 0 0 no-repeat; 
+	background-size: 100% 500px;
+	padding: 1.3em 0 0;
+	margin: 2em;
+	height: 500px
+
+	h3 {
+		font-size: 4.5rem;
+	}
+}
+
+.intro {
+	font-size: 3.4rem;
+	line-height: 145%;
+}
+
+.steps {
+	p {
+		margin-bottom: 2em;
+	}
+	p:first-child:first-letter {
+		font-size: 5rem;
+		font-family: bitter, georgia, serif;
+		font-weight: bold;
+	}
+}
+
+.mentors {
+	padding: 15px 0 0 110px;
+	img {
+		width: 100px;
+		float: left;
+		margin-left: -110px;
+	}
+
+	p {
+		font-size: 1.6rem;
+		padding-right: 1em;
+	}
+	
+}
 
 footer {
-	height: 300px;
+	height: 150px;
 	background-color: #ccc;
+	clear: both;
+	padding: 2em 0;
 }

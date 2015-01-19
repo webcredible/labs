@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1400px" height="514px" viewBox="0 0 1400 514" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.1 (9971) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#35B5A9" offset="0%"></stop>
+            <stop stop-color="#3DBBB0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <path d="M1400,2.00000304 L1400,436.33443 L0,514 L0,2 C0,2 1400,-1.07603234 1400,2.00000304 Z" id="Rectangle-1" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup"></path>
+    </g>
+</svg>

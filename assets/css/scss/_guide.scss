@@ -38,26 +38,34 @@ img.thumbnail {
 }
 
 /*BASIC TYPOGRAPHY*/
-
+html {font-size: 62.5%;}
 body {
 	font-family: $font-stack;
-	font-size: 62.5%;
+	font-size: 1.6rem;
 	line-height: 1.5em;
 	color: $primary-color;
 }
 
+p, li {
+	font-size: 2rem;
+	line-height: 135%;
+}
 p {
 	margin-bottom: 12px;
 }
 
 a {
-	color: #3a8ee2;
+	color: $accent-color;
 	text-decoration: none;
 	border-bottom: 1px solid;
+
+	:hover {
+	  color: #666;
+	}
 }
 
-a:hover {
-	color: #225587;
+img {
+  width: 100%;
 }
 
 ::selection {
@@ -73,25 +81,29 @@ color: #fff;
 /*HEADINGS*/
 
 h1 {
-	font-size: 48px;
+	font-size: 4.8rem;
 	font-weight: bold;
 	line-height: 1.4em;
+	font-family: bitter, georgia, serif;
 }
 
 h2 {
-	font-size: 36px;
+	font-size: 3.6rem;
 	font-weight: bold;
 	line-height: 1.4em;
+	font-family: bitter, georgia, serif;
 }
 
 h3 {
-	font-size: 28px;
+	font-size: 3.2rem;
 	font-weight: bold;
 	line-height: 1.4em;
+	font-family: bitter, georgia, serif;
+	margin: 2em 0 1em;
 }
 
 h4 {
-	font-size: 20px;
+	font-size: 2.6rem;
 	font-weight: bold;
 	line-height: 1.4em;
 }
@@ -116,7 +128,7 @@ ul.list,
 ul.list > li {
 	list-style-type: disc!important;
 	list-style-position: outside;
-	margin-left: 20px;
+	margin-bottom: .4em;
 }
 
 ol.list,
