@@ -665,7 +665,8 @@ a:hover.tooltips span {
     padding-right: 1em; }
 
 footer {
-  height: 150px;
-  background-color: #ccc;
+  height: 100px;
+  background-color: #222;
+  color: #fff;
   clear: both;
   padding: 2em 0; }
